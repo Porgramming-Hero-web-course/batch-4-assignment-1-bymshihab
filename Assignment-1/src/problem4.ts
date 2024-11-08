@@ -18,24 +18,10 @@
       //using typeGuard for circle
       return PI * objShape.radius * objShape.radius;
     } else if (objShape.shape === "rectangle") {
-      //using  typeGuard for circle
+      //using  typeGuard for rectangle
       return objShape.height * objShape.width;
     } else {
       return 0;
     }
   }
-
-  const circleArea = calculateShapeArea({
-    shape: "circle",
-    radius: 5,
-  });
-  console.log("Area of Circle:", circleArea);
-
-  const rectangleArea = calculateShapeArea({
-    shape: "rectangle",
-    width: 4,
-    height: 6,
-  });
-
-  console.log("Area of rectangleArea:", rectangleArea);
 }

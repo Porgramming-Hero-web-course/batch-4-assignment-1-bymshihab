@@ -1,6 +1,3 @@
-// Sample Input:
-// Sample Output:
-// [1, 2, 3, 4, 5]
 {
   type NumberArray = number[];
   function removeDuplicates(nums: NumberArray): NumberArray {
@@ -8,6 +5,7 @@
 
     nums.forEach((n) => {
       if (!newArray.includes(n)) {
+        // using not(!) operator. if valid pushed into newarray
         newArray.push(n);
       }
     });

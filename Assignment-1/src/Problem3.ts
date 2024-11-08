@@ -16,13 +16,4 @@
 
     return str.length;
   }
-  // console.log(
-  //   countWordOccurrences(
-  //     "TypeScript is great. I love TypeScript!, TypeScript, TypeScript, TypeScript",
-  //     "typescript"
-  //   )
-  // );
-
-  // countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
 }
-``;

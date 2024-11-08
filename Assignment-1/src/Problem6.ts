@@ -4,7 +4,6 @@
     age: number;
     email: string;
   }
-  // type UpdateAge = Array<{ age: number }>;
   type UpdateAge = {
     age: number;
   };
@@ -15,6 +14,6 @@
     return user;
   }
 
-  const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
-  console.log(updateProfile(myProfile, { age: 30 }));
+  // const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
+  // console.log(updateProfile(myProfile, { age: 30 }));
 }
